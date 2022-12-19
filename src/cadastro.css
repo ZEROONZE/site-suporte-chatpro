@@ -1,0 +1,64 @@
+/************************ CADASTRO ***************************/
+
+.Fotocadastro {
+  position: relative;
+  margin: auto;
+  border-radius: 22px;
+
+  width: 80%;
+}
+
+#FotoCapa {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border: 3px solid rgb(51, 51, 51);
+  box-sizing: border-box;
+
+  position: absolute;
+  border-radius: 40px;
+}
+
+#Foto {
+  width: 100%;
+  align-items: center;
+  justify-items: center;
+
+  height: 100%;
+}
+
+.right-arroww {
+  position: absolute;
+  top: 23rem;
+  right: 30px;
+  font-size: 3rem;
+  color: rgb(0, 0, 0);
+  z-index: 99;
+  cursor: pointer;
+  user-select: none;
+  box-shadow: 1px 1px 1px 2px rgba(255, 0, 0, 0.055);
+  border-radius: 43px;
+}
+
+.left-arroww {
+  position: absolute;
+  top: 23rem;
+  left: 30px;
+  font-size: 3rem;
+  color: #000;
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.cadastro {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.cadastro.activee {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}

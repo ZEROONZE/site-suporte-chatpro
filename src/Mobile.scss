@@ -1,0 +1,232 @@
+@media only screen and (max-width: 991px) {
+  .search-box {
+    display: none;
+  }
+  #quadrado,
+  #quadrado2 {
+    display: none;
+  }
+
+  body {
+    color: #333;
+    background-color: #fff;
+    font-family: "Roboto";
+    font-weight: 400;
+  }
+
+  .submenu .menusub-sub {
+    background: rgb(255, 255, 255);
+    z-index: 99999999;
+    margin-top: 1px;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    margin: auto;
+  }
+
+  .submenu11 .menusub-sub1 {
+    background: rgb(255, 255, 255);
+    z-index: 99999999;
+    margin-top: 1px;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    margin: auto;
+  }
+
+  .submenu22 .menusub-sub2 {
+    background: rgb(255, 255, 255);
+    z-index: 99999999;
+    margin-top: 1px;
+    position: fixed;
+    width: 100%;
+    right: 0;
+    margin: auto;
+  }
+  .menusub-sub {
+    background: #000;
+    height: auto;
+  }
+
+  .submenu {
+    background: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+    height: 400px;
+  }
+
+  #logomenu {
+    position: relative;
+    font-size: 30px;
+    margin-left: 20px;
+  }
+
+  .topoL {
+    background: #5386e4;
+    position: fixed;
+    z-index: 14;
+    transition: 0.3s;
+  }
+
+  .topo {
+    position: fixed;
+    width: 100%;
+    background: #fff;
+  }
+
+  .menumobi {
+    position: fixed;
+    margin-top: 10px;
+    float: right;
+    right: 0px;
+  }
+
+  .list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    width: 100%;
+    color: rgb(70, 70, 70);
+    background: #ffffff;
+    right: 0;
+    flex-wrap: nowrap;
+    z-index: 1;
+    position: fixed;
+    top: 56px;
+  }
+
+  .list ul li {
+    color: #fff;
+    padding: 10px 0px;
+    width: 100%;
+    color: #ffffff;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+  }
+
+  .list ul li Link {
+    color: #fff;
+    z-index: 1;
+  }
+
+  .list li:hover ul,
+  .menu li.over ul {
+    display: none;
+    z-index: 101;
+  }
+
+  .icon {
+    position: absolute;
+    z-index: 90;
+    width: fit-content;
+    height: 84px;
+    cursor: pointer;
+  }
+
+  .list .listItems {
+    padding: 0;
+    list-style: none;
+  }
+
+  .list .listItems li {
+    cursor: pointer;
+  }
+
+  .list .listItems li:hover {
+    font-weight: 800;
+  }
+
+  .icon .iconActive .hamburguer {
+    background-color: transparent;
+    box-shadow: 0 2px 5px;
+    position: fixed;
+  }
+
+  .icon .iconActive .hamburguer:after {
+    top: 10px;
+    background-color: rgb(255, 255, 255);
+    transform: rolate(225deg);
+    box-shadow: 0 -2px 5px;
+    z-index: 9999;
+    position: fixed;
+  }
+
+  .icon .iconActive .hamburguer:before {
+    top: 0;
+    background-color: #ffffff;
+    transform: rolate(135deg);
+  }
+
+  .hamburguer {
+    top: 2%;
+    right: 20px;
+    width: 37px;
+    height: 6px;
+    background-color: #ffffff;
+    position: absolute;
+    box-shadow: 0 2px 2px;
+    transition: 0.5s;
+    z-index: 9999;
+    border-radius: 5px;
+  }
+
+  .hamburguer:before {
+    top: -12px;
+    content: "";
+    position: absolute;
+    width: 37px;
+    height: 6px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 2px 2px;
+    transition: 0.5;
+    z-index: 900;
+
+    border-radius: 5px;
+  }
+
+  .hamburguer::after {
+    top: 12px;
+    content: "";
+    position: absolute;
+    width: 37px;
+    height: 6px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 2px;
+    transition: 0.5;
+    z-index: 900;
+    border-radius: 5px;
+  }
+
+  .topo .menuOpen {
+    position: absolute;
+    width: 100%;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    transition: 0.5s;
+  }
+
+  .topo .menuClose {
+    display: none;
+    background-color: rgb(227, 0, 0);
+    z-index: 900;
+    transition: 0.5s;
+  }
+
+  .list li a {
+    font-size: 20px;
+    color: rgb(130, 127, 127);
+  }
+
+  .list li:hover ul,
+  .list li.over ul {
+    display: block;
+    z-index: 101;
+    height: 40px;
+  }
+  /************************BARRA MENU MOBILE***************************/
+}

@@ -1,0 +1,79 @@
+body {
+  width: 100%;
+  background-color: #ededed;
+}
+/************************ SLIDER ***************************/
+.slider {
+  width: 100%;
+  height: 47%;
+  position: relative;
+  top: 0;
+  left: 0;
+  margin-bottom: 0px;
+  overflow: hidden;
+  top: -50px;
+}
+.menu {
+  align-items: center;
+  margin: auto;
+  padding: 1rem;
+}
+.submenu-bar {
+  flex-direction: column;
+  display: flex;
+}
+.disparos {
+  padding: 1rem;
+}
+#foto {
+  width: 100%;
+  box-shadow: 3px 3px 3px 2px rgba(0, 0, 0, 0.2);
+}
+#capa {
+  width: 100%;
+  height: 360px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.right-arrow {
+  position: absolute;
+  top: 37%;
+  right: 32px;
+  font-size: 3rem;
+  color: rgb(255, 255, 255);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-arrow {
+  position: absolute;
+  top: 37%;
+  left: 32px;
+  font-size: 3rem;
+  color: rgb(255, 253, 253);
+  z-index: 10;
+  cursor: pointer;
+  user-select: none;
+}
+
+.slide {
+  opacity: 0;
+  transition-duration: 1s ease;
+}
+
+.slide.active {
+  opacity: 1;
+  transition-duration: 1s;
+  transform: scale(1.08);
+}
+
+#logomenu {
+  z-index: 998;
+  position: relative;
+  right: -4rem;
+  height: 60px;
+  width: 130px;
+  top: 6px;
+}
